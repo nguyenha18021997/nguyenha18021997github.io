@@ -1,0 +1,44 @@
+.photo-part{
+    position: relative;
+  }
+  .topleft {
+    position: absolute;
+    top:70px;
+    left: 90px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+  }
+  img { 
+    width: 100%;
+    height: auto;
+  }
+  @media (min-width: 992px) { 
+    .bg-img { 
+      width: 100%;
+      height: auto;
+      margin: auto 0;
+      padding: 0;
+    } 
+   }
+  @media only screen and (max-width: 992px) {
+    .menu {
+      background-color: rgb(91, 89, 89) !important;
+      width: 100%;
+      margin: 0; 
+      padding: 0; 
+    }
+    .nav-item a {
+      color: rgb(255, 255, 255) !important;
+    }
+    .bg-img {
+      display: none;
+    }
+    .topleft {
+      position: static;
+      color: rgb(0, 0, 0);
+      }
+      .neighborhood {
+        margin: auto 0;
+        padding: 0;
+      }
+  }
