@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    width: 130px;
+    height: 100%;
+}
+.nav-item a:hover {
+    color: blue !important;
+  }
+  .thumbnail p:hover {
+    color: red !important;
+  } 
+  .tintuc {
+    background-color: rgb(245, 245, 245);
+  }
